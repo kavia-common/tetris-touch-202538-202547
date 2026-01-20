@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "Skipping Gradle invocation: Expo project has no prebuilt Android artifacts in this repository."
+echo "If you need native Android artifacts locally, run:"
+echo "  npx expo prebuild --platform android"
+exit 0
